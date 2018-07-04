@@ -14,6 +14,7 @@ A enhanced input wrapper for Unity3D
 ```cs
 yinput = GetComponent<YumeInputBridge>();
 yinput.SetPlayerIndex(1);
+yinput.core = new YumeInputCore();
 ```
 5) in your main object's update function add this line, run the project and press button 3 on your controller:
 ```cs
